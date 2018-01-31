@@ -9,8 +9,8 @@ version_control:
         tag: v1.0
     - simulation/orogen/imaging_sonar_simulation:
         github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
-    - bundles/rock:
-        github: rock-core/bundles-rock
+    - drivers/gps_base:
+        github: rock-drivers/drivers-gps_base
     - gui/vizkit3d_world:
         github: Brazilian-Institute-of-Robotics/gui-vizkit3d_world
     - gui/orogen/vizkit3d_world:
