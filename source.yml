@@ -7,6 +7,8 @@ version_control:
     - simulation/gpu_sonar_simulation:
         github: Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation
         tag: v1.0
+    - simulation/gazebo_thruster:
+        github: Brazilian-Institute-of-Robotics/simulation-gazebo_thruster
     - simulation/orogen/imaging_sonar_simulation:
         github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
     - simulation/orogen/rock_gazebo:
