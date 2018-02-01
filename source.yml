@@ -8,13 +8,13 @@ version_control:
         github: Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation
         tag: v1.0
     - simulation/gazebo_thruster:
-        github: Brazilian-Institute-of-Robotics/simulation-gazebo_thruster
+        github: nilsbore/simulation-gazebo_thruster
     - simulation/gazebo_underwater:
-        github: Brazilian-Institute-of-Robotics/simulation-gazebo_underwater
+        github: nilsbore/simulation-gazebo_underwater
     - simulation/orogen/imaging_sonar_simulation:
         github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
     - simulation/orogen/rock_gazebo:
-        github: Brazilian-Institute-of-Robotics/simulation-orogen-rock_gazebo
+        github: nilsbore/simulation-orogen-rock_gazebo
     - drivers/gps_base:
         github: rock-drivers/drivers-gps_base
     - drivers/orogen/gps_base:
