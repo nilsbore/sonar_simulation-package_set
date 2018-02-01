@@ -4,7 +4,7 @@ end
 
 cmake_package 'simulation/gpu_sonar_simulation'
 cmake_package 'gui/vizkit3d_world'
-cmake_package 'drivers/gps_base'
+#cmake_package 'drivers/gps_base'
 #cmake_package 'bundles/rock'
 
 import_package 'simulation/uwmodels' do |pkg|
