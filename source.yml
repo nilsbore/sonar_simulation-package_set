@@ -9,6 +9,8 @@ version_control:
         tag: v1.0
     - simulation/orogen/imaging_sonar_simulation:
         github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
+    - simulation/orogen/rock_gazebo:
+        github: Brazilian-Institute-of-Robotics/simulation-orogen-rock_gazebo
     - drivers/gps_base:
         github: rock-drivers/drivers-gps_base
     - drivers/orogen/gps_base:

@@ -14,6 +14,7 @@ end
 
 
 orogen_package 'simulation/orogen/imaging_sonar_simulation'
+orogen_package 'simulation/orogen/rock_gazebo'
 orogen_package 'gui/orogen/vizkit3d_world'
 orogen_package 'drivers/orogen/gps_base'
 
@@ -23,4 +24,5 @@ metapackage 'sonar_simulation',
     'simulation/orogen/imaging_sonar_simulation',
     'gui/orogen/vizkit3d_world',
     'drivers/gps_base',
-    'drivers/orogen/gps_base'
+    'drivers/orogen/gps_base',
+	'simulation/orogen/rock_gazebo'
