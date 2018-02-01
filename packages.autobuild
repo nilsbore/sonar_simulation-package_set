@@ -4,6 +4,7 @@ end
 
 cmake_package 'simulation/gpu_sonar_simulation'
 cmake_package 'gui/vizkit3d_world'
+cmake_package 'drivers/gps_base'
 #cmake_package 'drivers/gps_base'
 #cmake_package 'bundles/rock'
 
@@ -14,11 +15,12 @@ end
 
 orogen_package 'simulation/orogen/imaging_sonar_simulation'
 orogen_package 'gui/orogen/vizkit3d_world'
-orogen_package 'drivers/gps_base'
+orogen_package 'drivers/orogen/gps_base'
 
 metapackage 'sonar_simulation',
     'simulation/normal_depth_map',
     'simulation/gpu_sonar_simulation',
     'simulation/orogen/imaging_sonar_simulation',
     'gui/orogen/vizkit3d_world',
-    'drivers/gps_base'
+    'drivers/gps_base',
+    'drivers/orogen/gps_base'
