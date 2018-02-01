@@ -4,6 +4,7 @@ end
 
 cmake_package 'simulation/gpu_sonar_simulation'
 cmake_package 'simulation/gazebo_thruster'
+cmake_package 'simulation/gazebo_underwater'
 cmake_package 'gui/vizkit3d_world'
 cmake_package 'drivers/gps_base'
 #cmake_package 'drivers/gps_base'
@@ -23,6 +24,7 @@ metapackage 'sonar_simulation',
     'simulation/normal_depth_map',
     'simulation/gpu_sonar_simulation',
     'simulation/gazebo_thruster',
+    'simulation/gazebo_underwater',
     'simulation/orogen/imaging_sonar_simulation',
     'gui/orogen/vizkit3d_world',
     'drivers/gps_base',

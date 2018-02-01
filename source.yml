@@ -9,6 +9,8 @@ version_control:
         tag: v1.0
     - simulation/gazebo_thruster:
         github: Brazilian-Institute-of-Robotics/simulation-gazebo_thruster
+    - simulation/gazebo_underwater:
+        github: Brazilian-Institute-of-Robotics/simulation-gazebo_underwater
     - simulation/orogen/imaging_sonar_simulation:
         github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
     - simulation/orogen/rock_gazebo:
