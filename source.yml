@@ -16,9 +16,11 @@ version_control:
     - drivers/orogen/gps_base:
         github: rock-drivers/drivers-orogen-gps_base
     - gui/vizkit3d_world:
-        github: Brazilian-Institute-of-Robotics/gui-vizkit3d_world
+        github: nilsbore/gui-vizkit3d_world
+        branch: gazebo_robot
     - gui/orogen/vizkit3d_world:
-        github: Brazilian-Institute-of-Robotics/gui-orogen-vizkit3d_world
+        github: nilsbore/gui-orogen-vizkit3d_world
+        branch: gazebo_robot
     - simulation/uwmodels:
         github: romulogcerqueira/simulation-uwmodels
         tag: v1.0
